@@ -14,6 +14,10 @@ New Features
 Bug Fixes
 ^^^^^^^^^
 
+- Drop leftover WCS axes when a 1-D image keeps IRAF ``CUNIT2`` cards,
+  so ``CTYPE1=LINEAR`` with a wavelength ``CUNIT1`` is readable.
+  [astropy/specutils#1246]
+
 Other Changes and Additions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
